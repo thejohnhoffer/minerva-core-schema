@@ -1,0 +1,9 @@
+name: minerva-core-schema
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip:
+    - json-schema-for-humans==0.40
+prefix: /Users/jth30/opt/anaconda3/envs/minerva-core-schema
