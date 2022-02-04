@@ -2,7 +2,6 @@
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property             | Pattern | Type  | Deprecated | Definition | Title/Description |
@@ -15,7 +14,6 @@
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be | Description |
@@ -27,7 +25,6 @@
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)              |
@@ -40,7 +37,6 @@
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                 | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -53,21 +49,18 @@
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i0_name"></a>Property `root > images > images items > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 #### <a name="images_items_allOf_i1"></a>Property `root > images > images items > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                       | Pattern | Type             | Deprecated | Definition                                                            | Title/Description |
@@ -84,7 +77,6 @@
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/F                                                           |
 |                           |                                                                           |
 
@@ -99,7 +91,6 @@ Must be one of:
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/R                                                           |
 |                           |                                                                           |
 
@@ -111,14 +102,12 @@ Must be one of:
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers"></a>Property `root > images > images items > allOf > item 1 > markers`
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                       | Description |
@@ -130,7 +119,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                                                                                                                                                             |
@@ -143,7 +131,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Index                                                       |
 |                           |                                                                           |
 
@@ -156,14 +143,12 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers_items_allOf_i1"></a>Property `root > images > images items > allOf > item 1 > markers > markers items > allOf > Partial<{channel_number:number;cycle_number:number;marker_name:string;filter:string;excitation_wavelength:number;emission_wavelength:number;}>`
 
 | Type                      | `object`                                                                                                                                                     |
 | ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.")                                                                                    |
 | **Defined in**            | #/definitions/Partial<{channel_number:number;cycle_number:number;marker_name:string;filter:string;excitation_wavelength:number;emission_wavelength:number;}> |
 |                           |                                                                                                                                                              |
 
@@ -181,49 +166,42 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers_items_allOf_i1_cycle_number"></a>Property `root > images > images items > allOf > item 1 > markers > markers items > allOf > item 1 > cycle_number`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers_items_allOf_i1_emission_wavelength"></a>Property `root > images > images items > allOf > item 1 > markers > markers items > allOf > item 1 > emission_wavelength`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers_items_allOf_i1_excitation_wavelength"></a>Property `root > images > images items > allOf > item 1 > markers > markers items > allOf > item 1 > excitation_wavelength`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers_items_allOf_i1_filter"></a>Property `root > images > images items > allOf > item 1 > markers > markers items > allOf > item 1 > filter`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_markers_items_allOf_i1_marker_name"></a>Property `root > images > images items > allOf > item 1 > markers > markers items > allOf > item 1 > marker_name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_metadata"></a>Property `root > images > images items > allOf > item 1 > metadata`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Partial<{publications:Publication[];creation:Date;}>        |
 |                           |                                                                           |
 
@@ -237,14 +215,12 @@ Must be one of:
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_metadata_publications"></a>Property `root > images > images items > allOf > item 1 > metadata > publications`
 
 | Type                      | `array of object`                                                         |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                          | Description |
@@ -256,7 +232,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                   | Pattern | Type            | Deprecated | Definition | Title/Description |
@@ -271,7 +246,6 @@ Must be one of:
 
 | Type                      | `array of string`                                                         |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                                   | Description |
@@ -283,35 +257,30 @@ Must be one of:
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_metadata_publications_items_creation"></a>Property `root > images > images items > allOf > item 1 > metadata > publications > publications items > creation`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_metadata_publications_items_doi"></a>Property `root > images > images items > allOf > item 1 > metadata > publications > publications items > doi`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_metadata_publications_items_title"></a>Property `root > images > images items > allOf > item 1 > metadata > publications > publications items > title`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_shapes"></a>Property `root > images > images items > allOf > item 1 > shapes`
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                         | Description |
@@ -324,7 +293,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                                      |
@@ -337,7 +305,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Vec<"width"|"height">                                       |
 |                           |                                                                           |
 
@@ -351,21 +318,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_shapes_items_i0_allOf_i0_width"></a>Property `root > images > images items > allOf > item 1 > shapes > shapes item 0 > allOf > item 0 > width`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="images_items_allOf_i1_shapes_items_i0_allOf_i1"></a>Property `root > images > images items > allOf > item 1 > shapes > shapes item 0 > allOf > Measure<"ImagePixel">`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Measure<"ImagePixel">                                       |
 |                           |                                                                           |
 
@@ -378,7 +342,6 @@ Must be one of:
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 Must be one of:
@@ -388,7 +351,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                                                                              |
@@ -401,7 +363,6 @@ Must be one of:
 
 | Type                      | `object`                                                                                          |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.")                         |
 | **Same definition as**    | [images_items_allOf_i1_shapes_items_i0_allOf_i0](#images_items_allOf_i1_shapes_items_i0_allOf_i0) |
 |                           |                                                                                                   |
 
@@ -409,7 +370,6 @@ Must be one of:
 
 | Type                      | `object`                                                                    |
 | ------------------------- | --------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.")   |
 | **Defined in**            | #/definitions/Measure<"WidthRatio"|"HeightRatio"|"Millimeter"|"ImagePixel"> |
 |                           |                                                                             |
 
@@ -422,7 +382,6 @@ Must be one of:
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 Must be one of:
@@ -435,7 +394,6 @@ Must be one of:
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be | Description |
@@ -447,7 +405,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)              |
@@ -460,7 +417,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                 | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -473,21 +429,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 #### <a name="scenes_items_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                   | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -501,7 +454,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                          | Pattern | Type        | Deprecated | Definition | Title/Description |
@@ -514,7 +466,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                                                                            |
@@ -527,7 +478,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Vec<"x"|"y">                                                |
 |                           |                                                                           |
 
@@ -541,21 +491,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_camera_center_allOf_i0_y"></a>Property `root > scenes > scenes items > allOf > item 1 > camera > center > allOf > item 0 > y`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_camera_center_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > camera > center > allOf > Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">`
 
 | Type                      | `object`                                                                                          |
 | ------------------------- | ------------------------------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.")                         |
 | **Same definition as**    | [images_items_allOf_i1_shapes_items_i1_allOf_i1](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
 |                           |                                                                                                   |
 
@@ -563,14 +510,12 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers"></a>Property `root > scenes > scenes items > allOf > item 1 > layers`
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                     | Description |
@@ -582,7 +527,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Any of(Option)                                         |
@@ -596,7 +540,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                             |
@@ -609,7 +552,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -622,21 +564,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                        | Pattern | Type             | Deprecated | Definition | Title/Description |
@@ -650,7 +589,6 @@ Must be one of:
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                                        | Description |
@@ -662,7 +600,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                                                     |
@@ -675,7 +612,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                                        | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -688,21 +624,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                                                | Pattern | Type   | Deprecated | Definition                        | Title/Description |
@@ -715,7 +648,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Vec<"g"|"b"|"r">                                            |
 |                           |                                                                           |
 
@@ -730,28 +662,24 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_color_g"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 1 > color > g`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_color_r"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 1 > color > r`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_intensity"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 1 > intensity`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Vec<"max"|"min">                                            |
 |                           |                                                                           |
 
@@ -765,21 +693,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_intensity_min"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 1 > intensity > min`
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_intent"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > intent`
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 Must be one of:
@@ -789,7 +714,6 @@ Must be one of:
 
 | Type                      | `array of object`                                                         |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                                          | Description |
@@ -801,7 +725,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                                | Pattern | Type             | Deprecated | Definition                   | Title/Description |
@@ -814,7 +737,6 @@ Must be one of:
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Corrections                                                 |
 |                           |                                                                           |
 
@@ -826,14 +748,12 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 1`
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                             |
@@ -846,7 +766,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -859,21 +778,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i1_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 1 > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i1_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 1 > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                      | Pattern | Type             | Deprecated | Definition | Title/Description |
@@ -887,7 +803,6 @@ Must be one of:
 
 | Type                      | `array`                                                                   |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                                        | Description |
@@ -899,7 +814,6 @@ Must be one of:
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                                                     |
@@ -912,7 +826,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                                        | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -925,21 +838,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i1_allOf_i1_channels_items_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 1 > allOf > item 1 > channels > channels items > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i1_allOf_i1_channels_items_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 1 > allOf > item 1 > channels > channels items > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                                            | Pattern | Type   | Deprecated | Definition                                                                                            | Title/Description |
@@ -952,7 +862,6 @@ Must be one of:
 
 | Type                      | `object`                                                                                     |
 | ------------------------- | -------------------------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.")                    |
 | **Same definition as**    | [color](#scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_color) |
 |                           |                                                                                              |
 
@@ -960,14 +869,12 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i1_allOf_i1_intent"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 1 > allOf > item 1 > intent`
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 Must be one of:
@@ -977,7 +884,6 @@ Must be one of:
 
 | Type                      | `array of object`                                                         |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                                      | Description |
@@ -989,7 +895,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                              | Pattern | Type             | Deprecated | Definition               | Title/Description |
@@ -1002,7 +907,6 @@ Must be one of:
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Shaders                                                     |
 |                           |                                                                           |
 
@@ -1016,14 +920,12 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i2"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 2`
 
 | Type                      | `combining`                                                               |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | All of(Requirement)                                             |
@@ -1036,7 +938,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -1049,21 +950,18 @@ Must be one of:
 
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i2_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 2 > allOf > item 0 > name`
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i2_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 2 > allOf > item 1`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                                  | Pattern | Type             | Deprecated | Definition         | Title/Description |
@@ -1075,7 +973,6 @@ Must be one of:
 
 | Type                      | `enum (of string)`                                                        |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/L                                                           |
 |                           |                                                                           |
 
@@ -1091,7 +988,6 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Property                                                  | Pattern | Type            | Deprecated | Definition                             | Title/Description |
@@ -1104,7 +1000,6 @@ Must be one of:
 
 | Type                      | `array of string`                                                         |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 | Each item of this array must be                                    | Description |
@@ -1116,14 +1011,12 @@ Must be one of:
 
 | Type                      | `string`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
 ##### <a name="scenes_items_allOf_i1_layout_styles"></a>Property `root > scenes > scenes items > allOf > item 1 > layout > styles`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 | **Defined in**            | #/definitions/Record<string,string>                                       |
 |                           |                                                                           |
 
