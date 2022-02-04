@@ -297,7 +297,7 @@ Must be one of:
 
 | All of(Requirement)                                                      |
 | ------------------------------------------------------------------------ |
-| [Vec<"width"|"height">](#images_items_allOf_i1_shapes_items_i0_allOf_i0) |
+| [Vec<"width"\|"height">](#images_items_allOf_i1_shapes_items_i0_allOf_i0) |
 | [Measure<"ImagePixel">](#images_items_allOf_i1_shapes_items_i0_allOf_i1) |
 |                                                                          |
 
@@ -305,7 +305,7 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Defined in**            | #/definitions/Vec<"width"|"height">                                       |
+| **Defined in**            | #/definitions/Vec<"width"\|"height">                                       |
 |                           |                                                                           |
 
 | Property                                                            | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -355,8 +355,8 @@ Must be one of:
 
 | All of(Requirement)                                                                                              |
 | ---------------------------------------------------------------------------------------------------------------- |
-| [Vec<"width"|"height">](#images_items_allOf_i1_shapes_items_i1_allOf_i0)                                         |
-| [Measure<"WidthRatio"|"HeightRatio"|"Millimeter"|"ImagePixel">](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
+| [Vec<"width"\|"height">](#images_items_allOf_i1_shapes_items_i1_allOf_i0)                                         |
+| [Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
 |                                                                                                                  |
 
 ##### <a name="images_items_allOf_i1_shapes_items_i1_allOf_i0"></a>Property `root > images > images items > allOf > item 1 > shapes > shapes item 1 > allOf > Vec<"width"\|"height">`
@@ -370,7 +370,7 @@ Must be one of:
 
 | Type                      | `object`                                                                    |
 | ------------------------- | --------------------------------------------------------------------------- |
-| **Defined in**            | #/definitions/Measure<"WidthRatio"|"HeightRatio"|"Millimeter"|"ImagePixel"> |
+| **Defined in**            | #/definitions/Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel"> |
 |                           |                                                                             |
 
 | Property                                                        | Pattern | Type             | Deprecated | Definition | Title/Description |
@@ -470,15 +470,15 @@ Must be one of:
 
 | All of(Requirement)                                                                                            |
 | -------------------------------------------------------------------------------------------------------------- |
-| [Vec<"x"|"y">](#scenes_items_allOf_i1_camera_center_allOf_i0)                                                  |
-| [Measure<"WidthRatio"|"HeightRatio"|"Millimeter"|"ImagePixel">](#scenes_items_allOf_i1_camera_center_allOf_i1) |
+| [Vec<"x"\|"y">](#scenes_items_allOf_i1_camera_center_allOf_i0)                                                  |
+| [Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">](#scenes_items_allOf_i1_camera_center_allOf_i1) |
 |                                                                                                                |
 
 ##### <a name="scenes_items_allOf_i1_camera_center_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > camera > center > allOf > Vec<"x"\|"y">`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Defined in**            | #/definitions/Vec<"x"|"y">                                                |
+| **Defined in**            | #/definitions/Vec<"x"\|"y">                                                |
 |                           |                                                                           |
 
 | Property                                                | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -640,15 +640,15 @@ Must be one of:
 
 | Property                                                                                                | Pattern | Type   | Deprecated | Definition                        | Title/Description |
 | ------------------------------------------------------------------------------------------------------- | ------- | ------ | ---------- | --------------------------------- | ----------------- |
-| - [color](#scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_color )         | No      | object | No         | In #/definitions/Vec<"g"|"b"|"r"> | -                 |
-| - [intensity](#scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_intensity ) | No      | object | No         | In #/definitions/Vec<"max"|"min"> | -                 |
+| - [color](#scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_color )         | No      | object | No         | In #/definitions/Vec<"g"\|"b"\|"r"> | -                 |
+| - [intensity](#scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_intensity ) | No      | object | No         | In #/definitions/Vec<"max"\|"min"> | -                 |
 |                                                                                                         |         |        |            |                                   |                   |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_channels_items_allOf_i1_color"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0 > allOf > item 1 > channels > channels items > allOf > item 1 > color`
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Defined in**            | #/definitions/Vec<"g"|"b"|"r">                                            |
+| **Defined in**            | #/definitions/Vec<"g"\|"b"\|"r">                                            |
 |                           |                                                                           |
 
 | Property                                                                                      | Pattern | Type   | Deprecated | Definition | Title/Description |
@@ -680,7 +680,7 @@ Must be one of:
 
 | Type                      | `object`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
-| **Defined in**            | #/definitions/Vec<"max"|"min">                                            |
+| **Defined in**            | #/definitions/Vec<"max"\|"min">                                            |
 |                           |                                                                           |
 
 | Property                                                                                              | Pattern | Type   | Deprecated | Definition | Title/Description |

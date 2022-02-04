@@ -14,3 +14,4 @@ MD
 generate-schema-doc --config-file schema_md.yaml schema schema.md
 vi schema.md "+%s@.*\*\*Additional properties\*\*.*\n@@g" "+:wq"
 ```
+Manually run `%s@\([^\ ]\)|\([^\ ]\)@\1\\|\2@gc` on `schema.md` in vim.
