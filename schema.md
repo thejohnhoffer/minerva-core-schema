@@ -18,15 +18,6 @@
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
-
 | Each item of this array must be | Description |
 | ------------------------------- | ----------- |
 | [images items](#images_items)   | -           |
@@ -129,15 +120,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be                       | Description |
 | ----------------------------------------------------- | ----------- |
@@ -265,15 +247,6 @@ Must be one of:
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
-
 | Each item of this array must be                                          | Description |
 | ------------------------------------------------------------------------ | ----------- |
 | [publications items](#images_items_allOf_i1_metadata_publications_items) | -           |
@@ -300,15 +273,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be                                                   | Description |
 | --------------------------------------------------------------------------------- | ----------- |
@@ -349,15 +313,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | 2                  |
-| **Max items**        | 2                  |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be                         | Description |
 | ------------------------------------------------------- | ----------- |
@@ -482,15 +437,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be | Description |
 | ------------------------------- | ----------- |
@@ -627,15 +573,6 @@ Must be one of:
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
-
 | Each item of this array must be                     | Description |
 | --------------------------------------------------- | ----------- |
 | [layers items](#scenes_items_allOf_i1_layers_items) | -           |
@@ -715,15 +652,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be                                                        | Description |
 | -------------------------------------------------------------------------------------- | ----------- |
@@ -864,15 +792,6 @@ Must be one of:
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
-
 | Each item of this array must be                                                          | Description |
 | ---------------------------------------------------------------------------------------- | ----------- |
 | [transfers items](#scenes_items_allOf_i1_layers_items_anyOf_i0_allOf_i1_transfers_items) | -           |
@@ -971,15 +890,6 @@ Must be one of:
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
 
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
-
 | Each item of this array must be                                                        | Description |
 | -------------------------------------------------------------------------------------- | ----------- |
 | [channels items](#scenes_items_allOf_i1_layers_items_anyOf_i1_allOf_i1_channels_items) | -           |
@@ -1069,15 +979,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be                                                      | Description |
 | ------------------------------------------------------------------------------------ | ----------- |
@@ -1205,15 +1106,6 @@ Must be one of:
 | ------------------------- | ------------------------------------------------------------------------- |
 | **Additional properties** | [[Any type: allowed]](# "Additional Properties of any type are allowed.") |
 |                           |                                                                           |
-
-|                      | Array restrictions |
-| -------------------- | ------------------ |
-| **Min items**        | N/A                |
-| **Max items**        | N/A                |
-| **Items unicity**    | False              |
-| **Additional items** | False              |
-| **Tuple validation** | See below          |
-|                      |                    |
 
 | Each item of this array must be                                    | Description |
 | ------------------------------------------------------------------ | ----------- |

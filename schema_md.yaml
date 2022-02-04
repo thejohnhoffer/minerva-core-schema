@@ -4,4 +4,5 @@ examples_as_yaml: true
 collapse_long_descriptions: false
 template_md_options:
   show_heading_numbers: false
+  show_array_restrictions: false
 show_toc: false
