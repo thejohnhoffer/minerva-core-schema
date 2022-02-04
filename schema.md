@@ -537,6 +537,8 @@ Must be one of:
 | [item 3](#scenes_items_allOf_i1_layers_items_anyOf_i3) |
 | [item 4](#scenes_items_allOf_i1_layers_items_anyOf_i4) |
 | [item 5](#scenes_items_allOf_i1_layers_items_anyOf_i5) |
+| [item 6](#scenes_items_allOf_i1_layers_items_anyOf_i6) |
+| [item 7](#scenes_items_allOf_i1_layers_items_anyOf_i7) |
 |                                                        |
 
 ##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 0`
@@ -1255,6 +1257,226 @@ Must be one of:
 | Type                      | `number`                                                                  |
 | ------------------------- | ------------------------------------------------------------------------- |
 |                           |                                                                           |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6`
+
+| Type                      | `combining`                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| All of(Requirement)                                             |
+| --------------------------------------------------------------- |
+| [item 0](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i0) |
+| [item 1](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1) |
+|                                                                 |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 0`
+
+| Type                      | `object`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| Property                                                                | Pattern | Type   | Deprecated | Definition | Title/Description |
+| ----------------------------------------------------------------------- | ------- | ------ | ---------- | ---------- | ----------------- |
+| - [index](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i0_index ) | No      | number | No         | -          | -                 |
+| - [name](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i0_name )   | No      | string | No         | -          | -                 |
+|                                                                         |         |        |            |            |                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i0_index"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 0 > index`
+
+| Type                      | `number`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 0 > name`
+
+| Type                      | `string`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1`
+
+| Type                      | `object`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| Property                                                                  | Pattern | Type             | Deprecated | Definition | Title/Description |
+| ------------------------------------------------------------------------- | ------- | ---------------- | ---------- | ---------- | ----------------- |
+| - [intent](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_intent ) | No      | enum (of string) | No         | -          | -                 |
+| - [origin](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_origin ) | No      | Combination      | No         | -          | -                 |
+| - [shape](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_shape )   | No      | Combination      | No         | -          | -                 |
+|                                                                           |         |                  |            |            |                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_intent"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > intent`
+
+| Type                      | `enum (of string)`                                                        |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+Must be one of:
+* "ellipse"
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_origin"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > origin`
+
+| Type                      | `combining`                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| All of(Requirement)                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
+| [Vec<"x"\|"y">](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_origin_allOf_i0)                                                  |
+| [Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_origin_allOf_i1) |
+|                                                                                                                                        |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_origin_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > origin > allOf > Vec<"x"\|"y">`
+
+| Type                      | `object`                                                                                      |
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [scenes_items_allOf_i1_camera_center_allOf_i0](#scenes_items_allOf_i1_camera_center_allOf_i0) |
+|                           |                                                                                               |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_origin_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > origin > allOf > Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">`
+
+| Type                      | `object`                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [images_items_allOf_i1_shapes_items_i1_allOf_i1](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
+|                           |                                                                                                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_shape"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > shape`
+
+| Type                      | `combining`                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| All of(Requirement)                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------- |
+| [Vec<"width"\|"height">](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_shape_allOf_i0)                                         |
+| [Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">](#scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_shape_allOf_i1) |
+|                                                                                                                                       |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_shape_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > shape > allOf > Vec<"width"\|"height">`
+
+| Type                      | `object`                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [images_items_allOf_i1_shapes_items_i0_allOf_i0](#images_items_allOf_i1_shapes_items_i0_allOf_i0) |
+|                           |                                                                                                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i6_allOf_i1_shape_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 6 > allOf > item 1 > shape > allOf > Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">`
+
+| Type                      | `object`                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [images_items_allOf_i1_shapes_items_i1_allOf_i1](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
+|                           |                                                                                                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7`
+
+| Type                      | `combining`                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| All of(Requirement)                                             |
+| --------------------------------------------------------------- |
+| [item 0](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i0) |
+| [item 1](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1) |
+|                                                                 |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 0`
+
+| Type                      | `object`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| Property                                                                | Pattern | Type   | Deprecated | Definition | Title/Description |
+| ----------------------------------------------------------------------- | ------- | ------ | ---------- | ---------- | ----------------- |
+| - [index](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i0_index ) | No      | number | No         | -          | -                 |
+| - [name](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i0_name )   | No      | string | No         | -          | -                 |
+|                                                                         |         |        |            |            |                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i0_index"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 0 > index`
+
+| Type                      | `number`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i0_name"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 0 > name`
+
+| Type                      | `string`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1`
+
+| Type                      | `object`                                                                  |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| Property                                                                  | Pattern | Type             | Deprecated | Definition | Title/Description |
+| ------------------------------------------------------------------------- | ------- | ---------------- | ---------- | ---------- | ----------------- |
+| - [intent](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_intent ) | No      | enum (of string) | No         | -          | -                 |
+| - [origin](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_origin ) | No      | Combination      | No         | -          | -                 |
+| - [shape](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_shape )   | No      | Combination      | No         | -          | -                 |
+|                                                                           |         |                  |            |            |                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_intent"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > intent`
+
+| Type                      | `enum (of string)`                                                        |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+Must be one of:
+* "rect"
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_origin"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > origin`
+
+| Type                      | `combining`                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| All of(Requirement)                                                                                                                    |
+| -------------------------------------------------------------------------------------------------------------------------------------- |
+| [Vec<"x"\|"y">](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_origin_allOf_i0)                                                  |
+| [Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_origin_allOf_i1) |
+|                                                                                                                                        |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_origin_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > origin > allOf > Vec<"x"\|"y">`
+
+| Type                      | `object`                                                                                      |
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [scenes_items_allOf_i1_camera_center_allOf_i0](#scenes_items_allOf_i1_camera_center_allOf_i0) |
+|                           |                                                                                               |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_origin_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > origin > allOf > Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">`
+
+| Type                      | `object`                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [images_items_allOf_i1_shapes_items_i1_allOf_i1](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
+|                           |                                                                                                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_shape"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > shape`
+
+| Type                      | `combining`                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+|                           |                                                                           |
+
+| All of(Requirement)                                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------- |
+| [Vec<"width"\|"height">](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_shape_allOf_i0)                                         |
+| [Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">](#scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_shape_allOf_i1) |
+|                                                                                                                                       |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_shape_allOf_i0"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > shape > allOf > Vec<"width"\|"height">`
+
+| Type                      | `object`                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [images_items_allOf_i1_shapes_items_i0_allOf_i0](#images_items_allOf_i1_shapes_items_i0_allOf_i0) |
+|                           |                                                                                                   |
+
+##### <a name="scenes_items_allOf_i1_layers_items_anyOf_i7_allOf_i1_shape_allOf_i1"></a>Property `root > scenes > scenes items > allOf > item 1 > layers > layers items > anyOf > item 7 > allOf > item 1 > shape > allOf > Measure<"WidthRatio"\|"HeightRatio"\|"Millimeter"\|"ImagePixel">`
+
+| Type                      | `object`                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Same definition as**    | [images_items_allOf_i1_shapes_items_i1_allOf_i1](#images_items_allOf_i1_shapes_items_i1_allOf_i1) |
+|                           |                                                                                                   |
 
 ##### <a name="scenes_items_allOf_i1_layout"></a>Property `root > scenes > scenes items > allOf > item 1 > layout`
 
