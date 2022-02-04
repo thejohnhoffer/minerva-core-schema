@@ -1,0 +1,4 @@
+template_name: md
+footer_show_time: false
+examples_as_yaml: true
+collapse_long_descriptions: false
